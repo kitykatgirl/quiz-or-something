@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="swaggy_green">#16BC39</color>
+    <color name="blood_red">#BC1616</color>
+    <color name="spearmint">#1663BC</color>
 </resources>

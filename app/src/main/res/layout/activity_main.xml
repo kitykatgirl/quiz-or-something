@@ -15,15 +15,16 @@
         android:layout_width="350dp"
         android:layout_height="350dp"
         android:layout_margin="20dp"
-        app:srcCompat="@drawable/check_this" />
+        app:srcCompat="@drawable/airpod" />
 
     <TextView
         android:id="@+id/textView2"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:textAlignment="center"
+        android:text="tu bedzie pytanie czy cos idk" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,7 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:layout_weight="1"
-            android:backgroundTint="#16BC39"
+            android:backgroundTint="@color/swaggy_green"
             android:text="Tak"
             android:textColor="@color/white" />
 
@@ -46,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:layout_weight="1"
-            android:backgroundTint="#BC1616"
+            android:backgroundTint="@color/blood_red"
             android:text="Nie"
             android:textColor="@color/white" />
     </LinearLayout>
@@ -62,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:layout_weight="1"
-            android:backgroundTint="#1663BC"
+            android:backgroundTint="@color/spearmint"
             android:text="Podpowiedź"
             android:textColor="@color/white" />
 
@@ -72,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:layout_weight="1"
-            android:backgroundTint="#1663BC"
+            android:backgroundTint="@color/spearmint"
             android:text="Następne"
             android:textColor="@color/white" />
     </LinearLayout>
