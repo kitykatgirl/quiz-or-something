@@ -36,6 +36,11 @@ private int punkty = 0, pytanieLicznik = 0;
             return insets;
         });
 
+        /*
+        git remote add origin https://github.com/kitykatgirl/quiz-or-something.git
+        git branch -M main
+        git push -u origin main
+        */
         pytania.add(new Pytanie("czy ten kot ma swag",R.drawable.swag_incarnate,true,"no pomysl, to oczywiste"));
         pytania.add(new Pytanie("czy ten kot ma niebieskie okulary",R.drawable.sideyeorsomething,false,"no cmon, jestem zawiedziony"));
         pytania.add(new Pytanie("czy ten kot jest inwestorem Wall St.",R.drawable.check_this,true,"to jest miliarder"));
