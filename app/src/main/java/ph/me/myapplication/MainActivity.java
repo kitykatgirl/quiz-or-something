@@ -35,6 +35,16 @@ private ImageView imageViewPytanie;
         pytania.add(new Pytanie("czy ten kot ma niebieskie okulary",R.drawable.sideyeorsomething,false,"no cmon, jestem zawiedziony"));
         pytania.add(new Pytanie("czy ten kot jest inwestorem Wall St.",R.drawable.check_this,true,"to jest miliarder"));
         pytania.add(new Pytanie("czy ten dziadek trzyma airpodsy",R.drawable.airpod,false,"to aparaty sluchowe"));
+
+        buttonNie = findViewById(R.id.buttonNie);
+        buttonTak = findViewById(R.id.buttonTak);
+        textViewPytanie = findViewById(R.id.textView2);
+        imageViewPytanie = findViewById(R.id.imageView3);
+        WyswietlPytanie(0);
+    }
+    private void WyswietlPytanie(int ktorePytanie){
+        textViewPytanie.setText(pytania.get(ktorePytanie).getTrescPytania());
+        imageViewPytanie.setImageResource(pytania.get(ktorePytanie).getIdObrazek());
     }
 }
 
