@@ -29,6 +29,9 @@ public class Pytanie {
     public String getPodpowiedzi() {
         return podpowiedzi;
     }
+    public boolean getOdpowiedz() {
+        return odpowiedz;
+    }
 
     public boolean isCzyOdpOK() {
         return czyOdpOK;
